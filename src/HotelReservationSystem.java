@@ -9,6 +9,7 @@ public class HotelReservationSystem {
         try (Connection conn = DatabaseConnection.getConnection()) {
             Scanner scanner = new Scanner(System.in);
 
+            
             System.out.println("Welcome to the Hotel Reservation System");
             System.out.println("1. Make a Reservation");
             System.out.println("2. View Available Rooms");
